@@ -2,7 +2,7 @@
 .brand {
     text-decoration: none;
     color: #000;
-    padding-left: 87px;
+    padding-left: 150px;
 }
 
 .desktop-nav {
@@ -31,7 +31,8 @@
 
 .login {
     display: flex;
-    list-style: none;   
+    list-style: none;
+    align-items: center; 
 }
 
 .login .signin {
@@ -89,7 +90,7 @@ a.btn:hover {
     font-family: "Montserrat", sans-serif;
     text-align: center;
 }
-.container .container-wrapper .sub-title {
+.container .container-wrapper .freelance-sub-title {
     color: #64607D;
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
@@ -153,4 +154,121 @@ section h2{
     font-family: "montserrat",sans-serif;
     text-align: center;
     margin-bottom: 45px;
+}
+
+
+/* payments */
+
+.payment-box {
+    margin-left: 11%;
+}
+.payment {
+    padding-top: 50px;
+}
+
+.ar-brand {
+    text-align: center;
+    color: #3734a9;
+    font-size: 14px;
+}
+
+.payment-title {
+    font-size: 38px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* portfolio */
+
+.portfolio-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.choose-us {
+    text-align: left;
+    color: #3734a9;
+    font-size: 14px;
+}
+
+.portfolio-title {
+    padding-left: 35px;
+    color: #505887;
+    font-size: 19px;
+    font-family: "montserrat",sans-serif;
+}
+
+.lead-title {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "montserrat",sans-serif;
+}
+.lead-sub-title {
+    color: #757095;
+    font-size: 18px;
+    text-align : left;
+}
+
+.check-mark {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+}
+
+/* description */
+
+.graph-main-title {
+    font-size: 40px;
+    font-family: "montserrat",sans-serif;
+    text-align: left;
+    font-weight: 600;
+}
+.graph-sub-title {
+    font-size: 18px;
+    color: #757095;
+}
+
+.micro-chip {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+}
+.sub-title {
+    padding-left: 80px;
+}
+.sub-title-desc {
+    padding-left: 80px;
+}
+.hours {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+}
+.dedication {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+}
+.text-center {
+    justify-content:space-around;
+}
+
+/* features */
+
+.features-title {
+    text-align: left;
+    font-size: 50px;
+    font-weight: 500;
+}
+.file {
+    height: 45px;
+    width: 56px;
+}
+.card-body {
+    text-align: center;
 }
