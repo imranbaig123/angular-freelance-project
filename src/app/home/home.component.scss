@@ -1,4 +1,4 @@
-/* nav bar */
+/* nav bar */  
 .brand {
     text-decoration: none;
     color: #000;
@@ -15,7 +15,7 @@
     width: 90%;
     top: 39px;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
 }
 
 .desktop-nav .menu-items  {
@@ -78,6 +78,7 @@ a.btn:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 1525px;
 }
 
 .container .container-wrapper{
@@ -87,14 +88,16 @@ a.btn:hover {
 .container .container-wrapper .title {
     font-size: 58px;
     font-weight: bold;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     text-align: center;
 }
 .container .container-wrapper .freelance-sub-title {
     color: #64607D;
     font-size: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 
 .container .container-wrapper .financial {
@@ -104,18 +107,25 @@ a.btn:hover {
 .container .container-wrapper .btn {
     margin-right: 20px;
 }
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .get-started {
     background: #4f46ba;
     color:#FFF;
     border-radius: 7px;
-    padding: 14px 30px;
+    padding: 25px 0px 25px 0px;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
-    margin-left: 30%;
-    font-family: "Montserrat", sans-serif;
+    // margin-left: 30%;
+    font-family: "Manrope";
     border: none;
+    min-width: 171px;
 
 }
 
@@ -123,16 +133,18 @@ a.btn:hover {
     color: #4f46ba;
     background:#f7f9fb;
     border-radius: 7px;
-    padding: 14px 30px;
+    padding: 25px 0px 25px 0px;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
     margin-left: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     border: none;
+    min-width: 171px;
 }
 
 /* brands */
+
 
 .brands-section {
     padding: 32px 90px;
@@ -151,7 +163,7 @@ a.btn:hover {
 .brands-section h2,
 section h2{
     font-size: 22px;
-    font-family: "montserrat",sans-serif;
+    font-family: "Manrope";
     text-align: center;
     margin-bottom: 45px;
 }
@@ -159,8 +171,30 @@ section h2{
 
 /* payments */
 
+// .card{
+//     // border-radius: 10px 10px 10px 10px;
+// //     position: relative;
+// //   width: 30%;
+// //   height: 30%;
+// //   margin-top: 1rem;
+// //   border: 0.0625rem solid #868686;
+// //   border-radius: 0.25rem;
+// &:before {
+//     position: absolute;
+//     width: 2.9rem;
+//     height: 1rem;
+//     top: 8.8rem;
+//     left: 18.8rem;
+//     transform: rotate(140deg);
+//     content: "";
+//     // background-color: #eee;
+//     border-top: 0.0625rem solid #868686;
+//   }
+// }
+
 .payment-box {
-    margin-left: 11%;
+    // margin-left: 11%;
+    display: flex;
 }
 .payment {
     padding-top: 50px;
@@ -174,7 +208,7 @@ section h2{
 
 .payment-title {
     font-size: 38px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     text-align: center;
 }
 
@@ -200,13 +234,13 @@ section h2{
     padding-left: 35px;
     color: #505887;
     font-size: 19px;
-    font-family: "montserrat",sans-serif;
+    font-family: "Manrope";
 }
 
 .lead-title {
     font-size: 50px;
     font-weight: 600;
-    font-family: "montserrat",sans-serif;
+    font-family: "Manrope";
 }
 .lead-sub-title {
     color: #757095;
@@ -224,7 +258,7 @@ section h2{
 
 .graph-main-title {
     font-size: 40px;
-    font-family: "montserrat",sans-serif;
+    font-family: "Manrope";
     text-align: left;
     font-weight: 600;
 }
@@ -271,4 +305,15 @@ section h2{
 }
 .card-body {
     text-align: center;
+}
+.card-2 {
+    text-align: center;
+    width: 360px;
+    height: 80px;
+    border: 1px solid rgba(207, 207, 207, 1);
+    margin-top: 25px;
+}
+.my-icon {
+    width: 76px;
+    height: 80px;
 }
